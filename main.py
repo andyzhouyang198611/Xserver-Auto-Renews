@@ -30,8 +30,8 @@ WAIT_TIMEOUT = 10000     # 页面元素等待超时时间（毫秒）
 PAGE_LOAD_DELAY = 3      # 页面加载延迟时间（秒）
 
 # XServer登录配置
-LOGIN_EMAIL = os.getenv("XSERVER_EMAIL")
-LOGIN_PASSWORD = os.getenv("XSERVER_PASSWORD")
+LOGIN_EMAIL = os.getenv("casaos@drst.nyc.mn")
+LOGIN_PASSWORD = os.getenv("Andyzhou198611@")
 TARGET_URL = "https://secure.xserver.ne.jp/xapanel/login/xmgame"
 
 # =====================================================================
