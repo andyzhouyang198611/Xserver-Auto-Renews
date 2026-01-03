@@ -107,7 +107,7 @@ jobs:
         fi
         
         # 构建通知消息
-        MESSAGE="🐢Xserver续期通知
+        MESSAGE="🐢Xserver-Games续期通知
         📅执行时间：$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
         
         🖥️服务器：🇯🇵Xserver(Mc)
