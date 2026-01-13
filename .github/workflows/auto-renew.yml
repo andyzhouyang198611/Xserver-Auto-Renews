@@ -110,7 +110,7 @@ jobs:
         MESSAGE="🐢Xserver-Games续期通知
         📅执行时间：$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
         
-        🖥️服务器：🇯🇵Xserver(Mc)
+        🖥️服务器：🇯🇵Xserver(casaos2025@cm.edu.kg)
         📊续期结果：${RENEWAL_STATUS}
         🕛️旧到期时间：${OLD_DATE}"
         
