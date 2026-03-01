@@ -3,7 +3,7 @@ name: XServer GAME Auto Renew
 on:
   schedule:
     # 我的服务器是日本17:30之后,也就是中国时间16:30之后可继期 每天中国时间17:05运行 (UTC时间: 09:05)
-    - cron: '5 9 * * *'
+    - cron: '18 9 * * *'
   workflow_dispatch:  # 允许手动触发
 
 jobs:
