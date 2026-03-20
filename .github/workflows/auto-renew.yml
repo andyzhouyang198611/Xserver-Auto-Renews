@@ -28,10 +28,6 @@ jobs:
     
     # 设置超时时间为15分钟 (包含邮箱验证码获取时间)
     timeout-minutes: 15
-    
-    steps:
-    - name: 🔄 检出代码
-      uses: actions/checkout@v4
       
     - name: 🐍 设置 Python 环境
       uses: actions/setup-python@v4
