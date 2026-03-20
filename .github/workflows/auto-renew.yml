@@ -14,6 +14,17 @@ jobs:
     permissions:
       contents: write
       actions: write
+
+    steps:
+      # =======================================================
+      # 替换后的代码块：拉取私有仓库
+      - name: 拉取私有仓库
+        uses: actions/checkout@v4
+        with:
+          repository: andyzhouyang198611/Xserver-Renews
+          token: ${{ secrets.REPO_TOKEN }}
+          path: .  # 拉到根目录
+      # =======================================================
     
     # 设置超时时间为15分钟 (包含邮箱验证码获取时间)
     timeout-minutes: 15
